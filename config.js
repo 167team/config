@@ -1,1 +1,1 @@
-var baseApiUrl = "https://hub169.qrndfl.cn";
+var baseApiUrl = "https://hub167.3527z.com";
