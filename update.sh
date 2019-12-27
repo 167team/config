@@ -12,5 +12,7 @@ git commit -m "update $(date +'%F %T')"
 git push origin master
 git push gitee master
 
+GIT_SSH_COMMAND="ssh -i $(pwd)/sshkey/github2_rsa -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" git push github2 master
+
 coscmd upload config.js config.js
 coscmd upload config.json config.json
