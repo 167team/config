@@ -16,3 +16,5 @@ git push origin master
 
 coscmd upload config.js config.js
 coscmd upload config.json config.json
+
+scp -p4321 ./config.js* root@192.168.19.152:/data/www/config
